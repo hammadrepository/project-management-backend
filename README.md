@@ -13,7 +13,7 @@ the required functionality:
 * I cannot change start date after the project has been created
 * I can update the name and description and end date
 * I can delete the project (hint: consider soft delete)
-======
+--------------------------------------------------------------------------------------
 * I can create a new developer in the database
 * Each developer has firstname and lastname
 * I can update the firstname and lastname of a developer
@@ -22,7 +22,7 @@ the required functionality:
 developer in the database that is not part of at least one project
 * There should not be duplicate developers, that share the same firstname and
 lastname (hint: it is perfectly fine to use an additional helper field to ensure this)
-======
+--------------------------------------------------------------------------------------
 * I can create new technology in the database
 * Each technology has a name
 * Each technology can belong to one or more projects, or no project at all (so it is
@@ -39,7 +39,7 @@ kind of actions:
 the projects. You can utilize several request, where these are update to the model
 after it has been created, or just one, where the developers and technologies are
 included in the same request that creates the project
-======
+--------------------------------------------------------------------------------------
 * Create, update, read and delete developers
 * Note that developers should always be assigned to at least one project entity, so
 logically you only need to implement a create endpoint for developers, if you want
